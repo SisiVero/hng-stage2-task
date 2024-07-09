@@ -6,7 +6,7 @@ const AppLayout = ({ children }) => {
   return (
     <div>
       <Navbar />
-      {children}
+      <div className="bg-#FFFFFF p-6">{children}</div>
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import SideContainer from "../sideContainer/SideContainer";
 
 export default function Body() {
   return (
-    <div className="main-body mt-12 flex justify-between border border-red-500 ">
+    <div className="main-body mt-12 flex justify-between borde">
       <SideContainer />
       <div className="products-cont">
         <div>
