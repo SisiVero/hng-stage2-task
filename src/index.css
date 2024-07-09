@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,32 +8,44 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.main-container{
+.main-container {
   background-color: #292424;
 }
 .subtext,
-.women{
-  color: #f56630;
+.women {
+  color: #808000;
 }
-.nav-logo{
+.nav-logo {
   width: 1.5rem;
   height: 1.5rem;
 }
-.side-container{
-  background-color:#FEF5F0;
+
+.active {
+  border-bottom: 2px solid #fef5f0;
 }
-.first-side{
+.side-container {
+  background-color: #fef5f0;
+}
+.first-side {
   background-color: white;
 }
 
-.first-side .items{
+.first-side .items,
+.second-side .items {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
   border-bottom: 2px solid #f0f2f5;
   margin-bottom: 1rem;
+  font-weight: 400;
+  color: #000000;
 }
-.search{
-  border: 2px solid red;
+
+.search {
+  border: 1px solid #d0d5dd;
+}
+
+svg {
+  display: inline;
 }
