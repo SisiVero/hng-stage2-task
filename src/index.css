@@ -45,3 +45,7 @@ body {
 .search {
   border: 1px solid #d0d5dd;
 }
+
+svg {
+  display: inline;
+}
