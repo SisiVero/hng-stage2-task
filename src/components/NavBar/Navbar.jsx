@@ -1,14 +1,14 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import facebook from "./../images/Facebook.png";
-import tiktok from "./../images/Tik Tok.png";
-import instagram from "./../images/Instagram.png";
+import facebook from "../../images/Facebook.png";
+import tiktok from "../../images/Tik Tok.png";
+import instagram from "../../images/Instagram.png";
 
 export default function Navbar() {
   return (
-    <div className="main-container text-xs text-white h-12 max-w-full  flex items-center px-16 justify-between">
+    <div className="main-container text-xs text-white h-12 max-w-full flex items-center px-16 justify-between fixed inset-0">
       <nav className="list-items flex list-none ">
         <ul className="ul-list flex gap-5 ">
+          <li>Home</li>
           <li>About</li>
           <li>Pricing</li>
           <li>Contact</li>

@@ -14,7 +14,6 @@ export default function Cart() {
         <div className="product-details">
           <p>Big Tree Shoe</p>
           <p>
-            {" "}
             <span>$</span> 55.00
           </p>
           <p>

@@ -1,15 +1,20 @@
-import './App.css';
-import Navbar from './pages/Navbar';
-import Body from './pages/Body';
-import Footer from './pages/Footer';
-import ProductPage from './pages/Product';
-import Cart from './pages/Cart';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
+import ProductPage from "./pages/product/Product";
+import Cart from "./pages/cart/Cart";
+import CheckOut from "./pages/checkout/CheckOut";
+
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Body/>
-      <Footer/>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product-page" element={<ProductPage />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<CheckOut />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
